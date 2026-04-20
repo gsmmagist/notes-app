@@ -66,8 +66,12 @@
     <?php
         // Задание 10
         echo '<br><br>Задание 10<br>';
-        $str = '1a2b3c4b5d6e7f8g9h0';
-        echo str_replace([1, 2, 3, 4, 5, 6, 7, 8, 9, 0], '', $str);
+        echo strpos('abc abc abc', 'b');
+    ?>
+    <?php
+        // Задание 11
+        echo '<br><br>Задание 11<br>';
+        echo strrpos('abc abc abc', 'b');
     ?>
 </body>
 </html>
