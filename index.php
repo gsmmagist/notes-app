@@ -50,8 +50,8 @@ require_once __DIR__ . '/includes/header.php';
 <section class="panel note-list-panel">
     <?php if ($notes === []): ?>
         <div class="empty-state">
-            <p>Заметок пока нет.</p>
-            <p>Самое время создать первую — чистый лист терпеливее любого преподавателя.</p>
+            <p>Заметок пока нет</p>
+            <p>Самое время создать первую</p>
         </div>
     <?php else: ?>
         <div class="note-list-scroll">
